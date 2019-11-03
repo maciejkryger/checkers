@@ -99,10 +99,10 @@
     </c:if>
     <br>
     <form method="post">
-        <label for="pawnToMove">point of pawn you move:</label>
-        <input type="text" id="pawnToMove" name="moveFrom" class="moveFieldsToFill"><br>
-        <label for="wherePawnMove">point where you move:</label>
-        <input type="text" id="wherePawnMove" name="moveWhere" class="moveFieldsToFill"><br>
+        <label class="moveBox" for="pawnToMove">you move from:</label>
+        <input type="text" id="pawnToMove" name="moveFrom" class="inputBox"><br>
+        <label class="moveBox" for="wherePawnMove">you move where:</label>
+        <input type="text" id="wherePawnMove" name="moveWhere" class="inputBox"><br>
 
         <input type="submit" class="accept-button" value="Accept move">
     </form>

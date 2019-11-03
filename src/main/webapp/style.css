@@ -76,16 +76,21 @@ div.moveFields {
     position: center;
     letter-spacing: 4px;
 }
+label.moveBox{
+    width: 210px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
 
-form.moveFieldsToFill {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    background-color: #01303c;
-    color: white;
+input.inputBox{
+    width: 20px;
+    height: 20px;
 }
 
 .accept-button {
+    margin-top: 20px;
+    margin-left: 50px;
     width: 200px;
     height: 60px;
     font-size: 20px;
